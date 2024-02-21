@@ -1,0 +1,32 @@
+---
+cis_windows_server_2019::windows_server_audit_rules:
+###############################$ Gpresult: policy #################################
+# - audit_ensure_network_access_allow_anonymous_sid_name_translation_is_set_to_disabled
+################################## Auditpol:Tri ###################################
+- cis_windows_server_2019_17_2_1_audit
+- cis_windows_server_2019_17_2_6_audit
+- cis_windows_server_2019_17_3_2_audit
+- cis_windows_server_2019_17_5_2_audit
+- cis_windows_server_2019_17_5_4_audit
+- cis_windows_server_2019_17_5_6_audit
+- cis_windows_server_2019_17_6_2_audit
+- cis_windows_server_2019_17_6_4_audit
+- cis_windows_server_2019_17_7_4_audit
+- cis_windows_server_2019_17_9_1_audit
+- cis_windows_server_2019_17_7_2_audit
+- cis_windows_server_2019_17_9_3_audit
+- cis_windows_server_2019_17_9_5_audit
+################################## FIREWALL:Domain ###################################
+- cis_windows_server_2019_9_1_1_audit
+- cis_windows_server_2019_9_1_10_audit
+- cis_windows_server_2019_9_1_8_audit
+- cis_windows_server_2019_9_1_2_audit
+- cis_windows_server_2019_9_1_3_audit
+- cis_windows_server_2019_9_1_4_audit
+- cis_windows_server_2019_9_1_9_audit
+- cis_windows_server_2019_9_1_7_audit
+################################## FIREWALL:Private ###################################
+- cis_windows_server_2019_9_2_1_audit
+- cis_windows_server_2019_9_2_10_audit
+- cis_windows_server_2019_9_2_2_audit
+- cis_windows_server_2019_9_2_3_audit

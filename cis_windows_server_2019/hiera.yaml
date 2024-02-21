@@ -1,0 +1,11 @@
+---
+version: 5
+
+defaults:
+  datadir: manifests
+  data_hash: yaml_data
+
+hierarchy:
+    
+  - name: "windows_server_2019 CIS List"
+    path: "windows_server_2019_rules.yaml"
