@@ -1,6 +1,5 @@
 ---
 cis_windows_server_2019::windows_server_audit_rules:
-# - test3
 ###############################$ Gpresult: policy #################################
 - cis_windows_server_2019_1_1_1_audit
 - cis_windows_server_2019_1_1_2_audit
@@ -114,32 +113,32 @@ cis_windows_server_2019::windows_server_audit_rules:
 - cis_windows_server_2019_19_1_3_3_audit
 ##############################$ Gpresult: Folder Id ###############################
 - cis_windows_server_2019_18_1_3_audit
-- cis_windows_server_2019_18_1_1_1_audit #add18/03/2024
-- cis_windows_server_2019_18_1_1_2_audit #add18/03/2024
-- cis_windows_server_2019_18_1_2_2_audit #add18/03/2024
-- cis_windows_server_2019_18_8_28_4_audit #add18/03/2024
-- cis_windows_server_2019_18_8_28_7_audit #add18/03/2024
-- cis_windows_server_2019_18_8_3_audit #add18/03/2024
-- cis_windows_server_2019_18_8_31_1_audit #add18/03/2024
-- cis_windows_server_2019_18_8_31_2_audit #add18/03/2024
-- cis_windows_server_2019_18_8_34_6_1_audit #add18/03/2024
-- cis_windows_server_2019_18_8_34_6_2_audit #add18/03/2024
-- cis_windows_server_2019_18_8_36_1_audit #add18/03/2024
-- cis_windows_server_2019_18_8_36_2_audit #add18/03/2024
-- cis_windows_server_2019_18_8_48_5_1_audit #add18/03/2024
-- cis_windows_server_2019_18_8_53_1_2_audit #add18/03/2024
-- cis_windows_server_2019_18_9_100_2_audit #add18/03/2024
-- cis_windows_server_2019_18_9_100_audit #add18/03/2024
-- cis_windows_server_2019_18_9_102_1_2_audit #add18/03/2024
-- cis_windows_server_2019_18_9_102_2_3_audit #add18/03/2024
-- cis_windows_server_2019_18_9_103_1_audit #add18/03/2024
-- cis_windows_server_2019_18_9_108_4_1_audit #add18/03/2024
-- cis_windows_server_2019_18_9_12_1_audit #add18/03/2024
-- cis_windows_server_2019_18_9_16_2_audit #add18/03/2024
-- cis_windows_server_2019_18_3_2_audit #etc
-- cis_windows_server_2019_18_3_3_audit #etc
-- cis_windows_server_2019_18_3_4_audit #etc
-- cis_windows_server_2019_18_3_6_audit #etc
+- cis_windows_server_2019_18_1_1_1_audit
+- cis_windows_server_2019_18_1_1_2_audit
+- cis_windows_server_2019_18_1_2_2_audit
+- cis_windows_server_2019_18_8_28_4_audit
+- cis_windows_server_2019_18_8_28_7_audit
+- cis_windows_server_2019_18_8_3_audit
+- cis_windows_server_2019_18_8_31_1_audit
+- cis_windows_server_2019_18_8_31_2_audit
+- cis_windows_server_2019_18_8_34_6_1_audit
+- cis_windows_server_2019_18_8_34_6_2_audit
+- cis_windows_server_2019_18_8_36_1_audit
+- cis_windows_server_2019_18_8_36_2_audit
+- cis_windows_server_2019_18_8_48_5_1_audit
+- cis_windows_server_2019_18_8_53_1_2_audit
+- cis_windows_server_2019_18_9_100_2_audit
+- cis_windows_server_2019_18_9_100_audit
+- cis_windows_server_2019_18_9_102_1_2_audit
+- cis_windows_server_2019_18_9_102_2_3_audit
+- cis_windows_server_2019_18_9_103_1_audit
+- cis_windows_server_2019_18_9_108_4_1_audit
+- cis_windows_server_2019_18_9_12_1_audit
+- cis_windows_server_2019_18_9_16_2_audit
+- cis_windows_server_2019_18_3_2_audit
+- cis_windows_server_2019_18_3_3_audit
+- cis_windows_server_2019_18_3_4_audit
+- cis_windows_server_2019_18_3_6_audit
 - cis_windows_server_2019_18_3_7_audit
 - cis_windows_server_2019_18_4_1_audit
 - cis_windows_server_2019_18_4_11_audit
@@ -147,7 +146,7 @@ cis_windows_server_2019::windows_server_audit_rules:
 - cis_windows_server_2019_18_4_2_audit
 - cis_windows_server_2019_18_4_3_audit
 - cis_windows_server_2019_18_4_4_audit
-- cis_windows_server_2019_18_4_5_audit #Can't find the value
+- cis_windows_server_2019_18_4_5_audit
 - cis_windows_server_2019_18_4_6_audit
 - cis_windows_server_2019_18_4_7_audit
 - cis_windows_server_2019_18_4_8_audit
@@ -216,18 +215,18 @@ cis_windows_server_2019::windows_server_audit_rules:
 - cis_windows_server_2019_18_9_27_1_1_audit
 - cis_windows_server_2019_18_9_27_1_2_audit
 - cis_windows_server_2019_18_9_27_2_1_audit
-- cis_windows_server_2019_18_9_27_2_2_audit #Can't find the value
+- cis_windows_server_2019_18_9_27_2_2_audit
 - cis_windows_server_2019_18_9_27_3_1_audit
-- cis_windows_server_2019_18_9_27_3_2_audit #Can't find the value
+- cis_windows_server_2019_18_9_27_3_2_audit
 - cis_windows_server_2019_18_9_27_4_1_audit
-- cis_windows_server_2019_18_9_27_4_2_audit #Can't find the value
+- cis_windows_server_2019_18_9_27_4_2_audit
 - cis_windows_server_2019_18_9_31_2_audit
 - cis_windows_server_2019_18_9_31_3_audit
 - cis_windows_server_2019_18_9_31_4_audit
 - cis_windows_server_2019_18_9_4_1_audit
 - cis_windows_server_2019_18_9_41_1_audit
 - cis_windows_server_2019_18_9_45_1_audit
-- cis_windows_server_2019_18_9_45_4_1_2_audit #Can't find the value
+- cis_windows_server_2019_18_9_45_4_1_2_audit
 - cis_windows_server_2019_18_9_46_1_audit
 - cis_windows_server_2019_18_9_47_11_1_audit
 - cis_windows_server_2019_18_9_47_12_1_audit
@@ -235,12 +234,12 @@ cis_windows_server_2019::windows_server_audit_rules:
 - cis_windows_server_2019_18_9_47_15_audit
 - cis_windows_server_2019_18_9_47_4_1_audit
 - cis_windows_server_2019_18_9_47_4_2_audit
-- cis_windows_server_2019_18_9_47_5_1_1_audit #Can't find the value
+- cis_windows_server_2019_18_9_47_5_1_1_audit
 - cis_windows_server_2019_18_9_47_5_3_1_audit
 - cis_windows_server_2019_18_9_47_9_3_audit
 - cis_windows_server_2019_18_9_58_1_audit
 - cis_windows_server_2019_18_9_6_1_audit
-- cis_windows_server_2019_18_9_62_3_10_audit #Can't find the value
+- cis_windows_server_2019_18_9_62_3_10_audit
 - cis_windows_server_2019_18_9_65_2_2_audit
 - cis_windows_server_2019_18_9_65_3_11_1_audit
 - cis_windows_server_2019_18_9_65_3_11_2_audit
@@ -270,7 +269,7 @@ cis_windows_server_2019::windows_server_audit_rules:
 - cis_windows_server_2019_18_9_102_1_3_audit
 - cis_windows_server_2019_18_9_102_2_4_audit
 - cis_windows_server_2019_18_9_105_2_1_audit
-################################## Auditpol:Tri ###################################
+################################## Auditpol ###################################
 - cis_windows_server_2019_17_1_1_audit
 - cis_windows_server_2019_17_1_3_audit
 - cis_windows_server_2019_17_2_1_audit
