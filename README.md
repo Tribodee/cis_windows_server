@@ -14,7 +14,7 @@ _This store contains the currently active policy, which is the sum of all policy
 This is the resultant set of policy (RSOP) for the local computer (the sum of all GPOs that apply to the computer),   
 and the local stores (the PersistentStore,the static Windows service hardening (WSH), and the configurable WSH)_  
 
-Every command audit we use the string check, So that's means if this commnad apply all of modules it's not good enough with performance  
+Every command audit we use the string check, So that's means if this command apply all of modules it's not good enough with performance  
 But thank god puppet have custom facts, So what custom facts gonna do  
 Custom facts is going to run script from ruby and then get the value from script sound good right?  
 So what facts you want to get?  
