@@ -1,5 +1,5 @@
 # This project is going to audit all of "windows server NOT DC! " from CIS Base line Windows Server 2019 V1.30 is correclty setting or not?  
-So if you want to audit the policy what should you do next? Basicly many ppl will check by registry key cause it's will show the every policy setting but to be honest It's that actual policy?  
+So if you want to audit the policy what should you do next? Basically many ppl will check by registry key cause it's will show the every policy setting but to be honest It's that actual policy?  
 Don't forget one thing! every windows server it's connect to Domain Controller. So the policy setting should follow by DC right?  
 So now why we not get actual setting from command build-in powershell?  
 First if we want to check the policy setting in windows firewall. Now you go with  
